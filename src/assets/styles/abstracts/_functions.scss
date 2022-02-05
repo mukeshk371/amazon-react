@@ -1,0 +1,107 @@
+/*
+
+$base = This is a base variable for the padding & margin.
+Base value is 2px.
+
+* fontStyle is a mixin for styling for font.
+* f-spacing is the short-hand property mixin for the margin and padding.
+* s-spacing is the single-hand property with direction mentioned mixin for the margin and padding.
+* border is the mixin for the styling of border.
+
+Note: If you are not passing the parameter value from the css value,
+then replace that variable value with null in the mixin parameter respectively.
+
+*/
+
+//Base value for Margin & Padding
+$base: 2px;
+
+//font-size
+$font_size: 12px;
+
+//border-radius
+$border-radius: 4px;
+
+//Base Button
+$btn_height: 32px;
+
+//Base Input
+$input_height: 32px;
+
+//Mat Select
+$mat_select_height: 32px;
+
+//Mat Checkbox
+$checkbox_height: 16px;
+$checkbox-width: 16px;
+
+//table
+$th_row: 40px;
+$tr_row: 48px;
+
+//Operators
+$add: unquote('+');
+$sub: unquote('-');
+$mul: unquote('*');
+$div: unquote('/');
+
+//table
+$th_row: 40px;
+$tr_row: 48px;
+
+//FONT STYLE
+//usage: @include fontStyle($regular, 12px, $green);
+@mixin fontStyle($family, $size, $color:null) {
+    font-family: $family;
+    font-size: $size;
+    $lh: floor($size * 1.5);
+    color: $color;
+
+    @if $lh % 2 == 0px {
+        line-height: $lh;
+    }@else {
+        line-height: $lh - 1;
+    }
+}
+
+
+//full-spacing mixin for the MARGIN and PADDING
+//usage: @include l-spacing(padding, 10, 10, 3, 10);
+//usage: @include l-spacing(margin, 10, 10, 3, 10);
+@mixin f-spacing($property, $top, $right, $bottom, $left) {
+$t : $top * $base;
+$r : $right * $base;
+$b : $bottom * $base;
+$l : $left * $base;
+
+#{$property}: $t $r $b $l;
+}
+
+
+//short-spacing mixin for the margin and padding
+//usage: @include s-spacing(padding-right, 10);
+//usage: @include s-spacing(margin-top, 20);
+@mixin s-spacing($property, $value){
+#{$property}: $value * $base;
+}
+
+
+//border style
+//usage: @include border(1px, solid, $green)
+@mixin border($property, $width, $type, $color) {
+#{$property}: $width $type $color ;
+}
+
+
+//Function for the Addition, Substraction, Multiplication & Division
+//Pass the base variable of the element in css itself if defined,
+//if not then pass value of base_variable directly
+@function compute($base_value, $op, $value) {
+
+@if $op == unquote('*') or $op == unquote('/') {
+@return calc(#{$base_value} #{$op} #{$value} * 1);
+}
+@else {
+@return calc(#{$base_value} #{$op} #{$value} * 1px);
+}
+}

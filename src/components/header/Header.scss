@@ -1,0 +1,19 @@
+@import "./src/assets/styles/abstracts/variables";
+nav {
+    background: $secondary-color1;
+    height: 60px;
+    padding: 0 12px;
+    color: $white;
+    display: flex;
+    align-items: center;
+    .logo-anchor {
+        display: flex;
+        align-items: center;
+        color: $white;
+        span{
+            color: $white;
+            font-size: 14px;
+            margin-top: -4px;
+        }
+    }
+}

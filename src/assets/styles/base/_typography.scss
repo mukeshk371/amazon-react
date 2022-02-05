@@ -1,0 +1,52 @@
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+a.text-decoration-none {
+    text-decoration: none;
+}
+a.text-decoration-none:hover {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 900;
+}
+h1 {
+    line-height: 54px;
+    font-size: 36px;
+}
+h2 {
+    line-height: 44px;
+    font-size: 30px;
+}
+h3 {
+    line-height: 36px;
+    font-size: 24px;
+}
+h4 {
+    line-height: 30px;
+    font-size: 20px;
+}
+h5 {
+    line-height: 24px;
+    font-size: 16px;
+}
+h6 {
+    line-height: 20px;
+    font-size: 14px;
+}
+strong {
+    font-weight: 700;
+}
+
+p {
+    color: $neutral-mid1;
+    letter-spacing: none;
+}
