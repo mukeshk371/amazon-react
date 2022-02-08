@@ -1,0 +1,23 @@
+@import "./src/assets/styles/abstracts/variables";
+.sidebar-header {
+    background: $secondary-color2;
+    height: 50px;
+    padding: 0 36px;
+    color: $white;
+    display: flex;
+    align-items: center;
+    i {
+        background-position: -137px -340px;
+        width: 27px;
+        height: 25px;
+        margin-right: 10px;
+    }
+    strong {
+        font-size: 19px;
+        line-height: 25px;
+    }
+}
+.sidebar-content{
+    height: calc(100vh - 50px);
+    overflow: auto;
+}

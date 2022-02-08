@@ -13,38 +13,13 @@ $secondary-color1: #131921;
 $secondary-color2: #232f3e;
 $secondary-color3: #36b37e;
 $secondary-color4: #6554c0;
+$secondary-color5: #f3f3f3;
+$secondary-color6: #f08804;
 
 // Neutral Colors
-$neutral-dark1: #091e42;
-$neutral-dark2: #172b4d;
-$neutral-dark3: #253858;
-$neutral-dark4: #344563;
-$neutral-dark5: #42526e;
-$neutral-mid1: #505f79;
-$neutral-mid2: #6b778c;
-$neutral-mid3: #7a869a;
-$neutral-mid4: #97a0af;
-$neutral-mid5: #b3bac5;
-$neutral-light1: #dfe1e6;
-$neutral-light2: #ebecf0;
-$neutral-light3: #f4f5f7;
-$neutral-light4: #fafbfc;
+$primary-color1-light: #febd69;
+
 $white: #ffffff;
-$black: #000000;
-$black2: rgba(0, 0, 0, 0.2);
-$black3: #393939;
-
-// Extended Colors
-$extended-yellow1: #ff8b00;
-$blue: #2067bf;
-$blue1: #2475d9;
-$blue2: rgba(40, 131, 243, 0.1);
-$grey1: #333;
-$grey2: #ddd;
-$grey3: #d4e6fd;
-$grey4: rgb(244, 245, 247);
-
-
 $error: #de350b;
 $success: #00875a;
 $info: #0065ff;
@@ -55,7 +30,7 @@ $transition: all ease-in-out 0.2s;
 $border-dashed: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='10' ry='10' stroke='%23999999FF' stroke-width='2' stroke-dasharray='4%2c 8' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
 
 $box-shadow1: 0 0 8px 0 rgba(0, 0, 0, 0.15);
-$box-shadow2: 0 0 0 4px rgba(40,131, 243,0.2);
+$box-shadow2: 0 0 0 4px rgba(40, 131, 243, 0.2);
 $box-shadow3: 0 0 0 2px rgba(40, 131, 243, 0.2);
 $box-shadow4: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 $box-shadow5: 0 8px 18px 0 rgba(0, 0, 0, 0.16);
