@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/amazon-react/static/css/main.77f97908.css",
+    "main.css": "/amazon-react/static/css/main.dc8cd690.css",
     "main.js": "/amazon-react/static/js/main.dce1f2d9.js",
     "static/js/787.5b1e0396.chunk.js": "/amazon-react/static/js/787.5b1e0396.chunk.js",
+    "static/media/Amazon Ember Italic.ttf": "/amazon-react/static/media/Amazon Ember Italic.0e7ee0e8cb18de9b3e39.ttf",
+    "static/media/Amazon Ember Bold Italic.ttf": "/amazon-react/static/media/Amazon Ember Bold Italic.93fece66d0c1406b3bfd.ttf",
+    "static/media/Amazon Ember Regular.ttf": "/amazon-react/static/media/Amazon Ember Regular.7fa5cfda4cedba8dd601.ttf",
+    "static/media/Amazon Ember Bold.ttf": "/amazon-react/static/media/Amazon Ember Bold.171b1a184eda2a1cf652.ttf",
     "index.html": "/amazon-react/index.html",
-    "main.77f97908.css.map": "/amazon-react/static/css/main.77f97908.css.map",
+    "main.dc8cd690.css.map": "/amazon-react/static/css/main.dc8cd690.css.map",
     "main.dce1f2d9.js.map": "/amazon-react/static/js/main.dce1f2d9.js.map",
     "787.5b1e0396.chunk.js.map": "/amazon-react/static/js/787.5b1e0396.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77f97908.css",
+    "static/css/main.dc8cd690.css",
     "static/js/main.dce1f2d9.js"
   ]
 }
